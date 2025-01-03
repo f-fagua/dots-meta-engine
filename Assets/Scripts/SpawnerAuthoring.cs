@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Unity.Entities;
 using UnityEditor.SceneManagement;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class SpawnerAuthoring : MonoBehaviour
 {
     public GameObject Prefab;
+    public List<Material> materiales;
     public int Width;
     public int Height;
     public float Distance;
@@ -26,5 +28,7 @@ class SpawnerBaker : Baker<SpawnerAuthoring>
             Distance = authoring.Distance,
             PixelScale = authoring.PixelScale
         });
+        //Add Buffer here!
+        // add cada material por cada material del authoring.
     }
 }
