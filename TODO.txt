@@ -1,5 +1,14 @@
-Crear un material, uno solo.
-ya con eso tengo.
+
+
+Creador de texturas.
+	- Crear la textura a partir del archivo de texto.
+	- Buscar la forma de crearlo facil.
+
+Crear un Scriptable Object con la referencia a los materiales.
+	- Crear la clase.
+
+Crear el selector de colores.
+	- 
 
 
 Dynamic buffer component para guardar los materiales.
@@ -10,15 +19,3 @@ Dynamic buffer component para guardar los materiales.
 https://github.com/Unity-Technologies/EntityComponentSystemSamples/blob/master/GraphicsSamples/URPSamples/Assets/SampleScenes/4.%20API%20Examples/RenderMeshUtilityExample/SceneAssets/AddComponentsExample.cs
 
 https://docs.unity3d.com/Packages/com.unity.entities@1.0/manual/components-buffer-create.html
-
-Creador de texturas.
-	- Escoger el formato del JSON.
-	- Crear el lector del JSON.
-	- Crear un archivo de JSON.
-	- Buscar la forma de crearlo facil.
-
-Crear un Scriptable Object con la referencia a los materiales.
-	- Crear la clase.
-
-Crear el selector de colores.
-	- 
