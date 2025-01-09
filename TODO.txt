@@ -2,8 +2,8 @@
 
 Creador de texturas.
 	- Crear la textura a partir del archivo de texto.
-	- Buscar la forma de crearlo facil.
-
+	- Crear la textura en el path indicado.
+	
 Crear un Scriptable Object con la referencia a los materiales.
 	- Crear la clase.
 
